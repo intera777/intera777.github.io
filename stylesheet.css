@@ -1,14 +1,21 @@
+li {
+    list-style: none;
+}
+
 .header {
     height: 90px;
     background-color: #444444;
     color: #fff;
 }
 
-.headerLogo h1 {
-    font-size: 25px;
-    padding: 24px 10px
+.header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 20px 10px
 }
 
-.headerElements {
-    color: #fff;
+.header-elements li {
+    float: right;
+    padding: 30px 15px;
+    font-size: 17px;
 }
