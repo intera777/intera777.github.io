@@ -1,4 +1,14 @@
-h1 {
-    color: #202020;
-    font-size: 30px;
+.header {
+    height: 90px;
+    background-color: #444444;
+    color: #fff;
+}
+
+.headerLogo h1 {
+    font-size: 25px;
+    padding: 24px 10px
+}
+
+.headerElements {
+    color: #fff;
 }
