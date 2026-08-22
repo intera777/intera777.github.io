@@ -1157,9 +1157,14 @@ footer {
     }
     .global-nav {
         position: fixed;
-        inset: 0;
+        inset: 0 auto auto 0;
+        width: 100vw;
+        min-height: 100vh;
+        height: 100dvh;
+        padding: max(88px,12vh) 20px 40px;
+        overflow-y: auto;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 4px;
         visibility: hidden;
         opacity: 0;
@@ -1525,6 +1530,10 @@ footer {
     background: #f8fbfdeb;
     border-bottom-color: #1421301a;
     backdrop-filter: blur(14px);
+}
+
+body.menu-open .site-header {
+    backdrop-filter: none;
 }
 
 .page-hero {
