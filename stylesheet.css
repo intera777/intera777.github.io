@@ -1,4 +1,29 @@
-h1 {
-    color: #202020;
+li {
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    background-color: #444444;
+    color: #fff;
+}
+
+.header-logo {
+    float: left;
     font-size: 30px;
+    padding: 20px 10px
+}
+
+.header-elements li {
+    float: right;
+    padding: 30px 15px;
+    font-size: 17px;
+}
+
+.contents-item {
+    float: left
+}
+
+footer {
+    clear: both;
 }
